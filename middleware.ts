@@ -4,7 +4,7 @@ import { NextResponse } from 'next/server';
 import { api } from './convex/_generated/api';
 
 // Routes that require authentication but not subscription
-const isAuthOnlyRoute = createRouteMatcher(['/profile(.*)', '/settings(.*)'])
+const isAuthOnlyRoute = createRouteMatcher(['/profile(.*)', '/settings(.*)', '/stocks(.*)', '/crypto(.*)'])
 
 // Routes that require both authentication and subscription
 const isSubscriptionRoute = createRouteMatcher(['/dashboard(.*)'])

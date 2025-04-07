@@ -40,6 +40,16 @@ const components: { title: string; href: string; description: string }[] = [
     href: "/blog",
     description: "Read my interesting blog posts.",
   },
+  {
+    title: "Stocks",
+    href: "/stocks",
+    description: "Visualize and analyze stock market data in 3D.",
+  },
+  {
+    title: "Crypto",
+    href: "/crypto",
+    description: "Explore cryptocurrency prices and trends in 3D.",
+  },
 ];
 
 export default function NavBar() {
@@ -177,6 +187,12 @@ export default function NavBar() {
 
           <Link href="/dashboard" prefetch={true}>
             <Button variant="ghost">Dashboard</Button>
+          </Link>
+          <Link href="/stocks" prefetch={true}>
+            <Button variant="ghost">Stocks</Button>
+          </Link>
+          <Link href="/crypto" prefetch={true}>
+            <Button variant="ghost">Crypto</Button>
           </Link>
           <Link href="/playground" prefetch={true}>
             <Button variant="ghost">AI Playground</Button>

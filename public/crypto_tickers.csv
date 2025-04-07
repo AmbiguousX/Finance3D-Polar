@@ -1,0 +1,598 @@
+ticker,name
+X:00USD,00 Token
+X:1INCHUSD,1inch
+X:A8USD,Ancient8
+X:AAVEUSD,Aave
+X:ABTUSD,Arcblock
+X:ACAUSD,Acala
+X:ACHUSD,Alchemy Pay
+X:ACSUSD,Access Protocol
+X:ACXUSD,Across Protocol
+X:ADAUSD,Cardano
+X:ADXUSD,AdEx
+X:AERGOUSD,Aergo
+X:AEROUSD,Aerodome Finance
+X:AEVOUSD,Aevo
+X:AGLDUSD,Adventure Gold
+X:AIOZUSD,AIOZ Network
+X:AIRUSD,AIRian
+X:AKTUSD,Akash
+X:ALBTUSD,AllianceBlock
+X:ALCXUSD,Alchemix
+X:ALEOUSD,Aleo
+X:ALEPHUSD,Aleph.im v2
+X:ALGOUSD,Algorand
+X:ALGUSD,Algory
+X:ALICEUSD,MyNeighborAlice
+X:ALPHAUSD,Stella
+X:ALT11M2507USD,ALT11M2507
+X:ALT11M250830USD,ALT11M250830
+X:ALT11M251029USD,ALT11M251029
+X:ALT2612USD,ALT2612
+X:ALTUSD,AltLayer
+X:AMPUSD,Amp
+X:ANKRUSD,Ankr
+X:ANTUSD,Aragon
+X:APENFTUSD,APENFT
+X:APEUSD,ApeCoin
+X:API3USD,API3
+X:APPUSD,Moon App
+X:APTUSD,Aptos
+X:APUUSD,APU
+X:ARBUSD,Arbitrum
+X:ARKMUSD,Arkham
+X:ARPAUSD,ARPA Chain
+X:ASMUSD,Assemble Protocol
+X:ASTRUSD,Astar
+X:ASTUSD,AirSwap
+X:ATAUSD,Automata Network
+X:ATHUSD,Aethir
+X:ATLASUSD,Star Atlas
+X:ATOMUSD,Cosmos
+X:ATOUSD,ATO
+X:AUCTIONUSD,Bounce Token
+X:AUDIOUSD,Audius
+X:AURORAUSD,Aurora
+X:AUSDTUSD,aUSDT
+X:AVAXUSD,Avalanche
+X:AVTUSD,Aventus
+X:AXLUSD,Axelar
+X:AXSUSD,Axie Infinity
+X:AZEROUSD,Aleph Zero
+X:B2MUSD,Bit2Me
+X:BADGERUSD,Badger Dao
+X:BALUSD,Balancer
+X:BANDUSD,Band Protocol
+X:BATUSD,Basic Attention Token
+X:BCHUSD,Bitcoin Cash
+X:BCHNUSD,Bitcoin Cash
+X:BEAMUSD,BEAM
+X:BESTUSD,Bitpanda
+X:BFTUSD,BnkToTheFuture
+X:BGBUSD,Bitget Token
+X:BICOUSD,Biconomy
+X:BIGTIMEUSD,Big Time
+X:BITUSD,BitDAO
+X:BLASTUSD,Blast
+X:BLURUSD,Blur
+X:BLZUSD,Bluzelle
+X:BNCUSD,Bifrost Native Coin
+X:BNTUSD,Bancor
+X:BOBAUSD,Boba Network
+X:BODENUSD,Jeo Boden
+X:BOMEUSD,Book Of Meme
+X:BONDUSD,BarnBridge
+X:BONKUSD,Bonk
+X:BORGUSD,BORG
+X:BOSONUSD,Boson Protocol
+X:BRICKUSD,Brick by Brick
+X:BSVUSD,Bitcoin SV
+X:BSXUSD,Basilisk
+X:BTCUSD,Bitcoin
+X:BTCPYUSD,BTCpy
+X:BTGUSD,Bitcoin Gold
+X:BTRSTUSD,Braintrust
+X:BTSEUSD,BTSE
+X:BTTUSD,BitTorrent
+X:BUSDUSD,Binance USD
+X:BXNUSD,BXN
+X:C98USD,Coin98
+X:CBETHUSD,Coinbase Wrapped Staked ETH
+X:CCDUSD,Concordium
+X:CELOUSD,Celo
+X:CELRUSD,Celer Network
+X:CELUSD,Celsius
+X:CFGUSD,Centrifuge
+X:CGLDUSD,Celo
+X:CHEXUSD,CHEX
+X:CHRUSD,Chromia
+X:CHSBUSD,SwissBorg
+X:CHZUSD,Chiliz
+X:CLOUDUSD,Cloud
+X:CLOUSD,Callisto
+X:CLVUSD,Clover Finance
+X:CNHTUSD,CNH Tether
+X:COMPUSD,Compound
+X:COQUSD,Coq Inu
+X:CORECHAINUSD,Core
+X:COREUMUSD,Coreum
+X:COTIUSD,Coti
+X:COVALUSD,Circuits of Value
+X:COWUSD,Cow Protocol
+X:CPOOLUSD,Clearpool
+X:CQTUSD,Covalent Query Token
+X:CROUSD,Crypto.com
+X:CRPTUSD,Crypterium
+X:CRVUSD,Curve DAO Token
+X:CSMUSD,Consentium
+X:CSPRUSD,Casper Network
+X:CTSIUSD,Cartesi
+X:CTXUSD,Cryptex Finance
+X:CVCUSD,Civic
+X:CVXUSD,Convex Finance
+X:CXTUSD,Covalent X Token
+X:DAIUSD,Dai
+X:DARUSD,Mines of Dalarnia
+X:DASHUSD,Dash
+X:DBRUSD,deBridge
+X:DDXUSD,DerivaDAO
+X:DEGENUSD,Degen
+X:DENTUSD,Dent
+X:DESOUSD,Decentralized Social
+X:DEXTUSD,DEXTools
+X:DGBUSD,DigiByte
+X:DIAUSD,DIA
+X:DIMOUSD,Dimo
+X:DNTUSD,district0x
+X:DNYUSD,District0x
+X:DOGEUSD,Dogecoin
+X:DOPUSD,Data Ownership Protocol
+X:DORAUSD,Dora
+X:DOTUSD,Polkadot
+X:DREPUSD,Drep
+X:DRIFTUSD,Drift Protocol
+X:DRVUSD,DRV
+X:DSHUSD,Dash
+X:DUSKUSD,Dusk Network
+X:DVFUSD,DeversiFi
+X:DYDXUSD,dYdX
+X:DYMUSD,Dymension
+X:DYPUSD,DeFi Yield Protocol
+X:EDOUSD,Eidoo
+X:EGLDUSD,Elrond
+X:EIGENUSD,Eigenlayer
+X:ELAUSD,Elastos
+X:ENAUSD,Ethena
+X:ENJUSD,Enjin Coin
+X:ENSUSD,Ethereum Name Service
+X:EOSUSD,EOS
+X:ERNUSD,Ethernity Chain
+X:ETCUSD,Ethereum Classic
+X:ETH2XUSD,Coop Ethereum 2x Index
+X:ETHUSD,Ethereum
+X:ETHFIUSD,Ether.fi
+X:ETHPYUSD,Etherpay
+X:ETHWUSD,EthereumPoW
+X:ETPUSD,Metaverse
+X:EULUSD,Euler
+X:EURCUSD,EURC
+X:EURQUSD,EURQ
+X:EURRUSD,EURR
+X:EURTUSD,Euro Tether
+X:EUTUSD,EUT
+X:EWTUSD,Energy Web
+X:FARMUSD,Harvest Finance
+X:FCLUSD,Fractal
+X:FETUSD,Fetch.ai
+X:FIDAUSD,Bonfida
+X:FILUSD,Filecoin
+X:FISUSD,StaFi Protocol
+X:FLOKIUSD,FLOKI
+X:FLOWUSD,Flow
+X:FLRUSD,Flare
+X:FORTHUSD,Ampleforth Governance Token
+X:FORTUSD,Forta
+X:FOXUSD,Shapeshift FOX Token
+X:FTMUSD,Fantom
+X:FTTUSD,FTX Token
+X:FUNUSD,FunFair
+X:FWOGUSD,FWOG
+X:FXSUSD,Frax Share
+X:FXUSD,Function X
+X:GALAUSD,Gala Games
+X:GALUSD,Galxe
+X:GARIUSD,Gari Network
+X:GFIUSD,Goldfinch
+X:GHSTUSD,Aavegotchi
+X:GIGAUSD,Gigachad
+X:GLMRUSD,Moonbeam
+X:GLMUSD,Golem
+X:GMMTUSD,Giant Mammoth
+X:GMTUSD,GMT
+X:GMXUSD,GMX
+X:GNOUSD,Gnosis
+X:GNTUSD,Golem
+X:GOATUSD,GOAT
+X:GODSUSD,Gods Unchained
+X:GOMININGUSD,GoMining
+X:GRTUSD,The Graph
+X:GSTUSD,GrEarn
+X:GTCUSD,Gitcoin
+X:GTXUSD,Global Trading Xenocurrency
+X:GUSD,Gravity
+X:GUSDUSD,Gemini Dollar
+X:GYENUSD,GYEN
+X:HBARUSD,Hedera
+X:HDXUSD,Hydration
+X:HFTUSD,Hashflow
+X:HIGHUSD,Highstreet
+X:HILSVUSD,Airport Hotel SV
+X:HIXUSD,HIX
+X:HMSTRUSD,Hamster Kombat
+X:HMTUSD,Human
+X:HNTUSD,Helium
+X:HONEYUSD,Hivemapper
+X:HOPRUSD,Hopr Token
+X:HTXDAOUSD,HTXDAO
+X:HTXUSD,HTX DAO
+X:ICEUSD,Popsicle Finance
+X:ICPUSD,Internet Computer
+X:ICXUSD,Icon
+X:IDEXUSD,IDEX
+X:IDXUSD,IDX
+X:ILVUSD,Illuvium
+X:IMXUSD,Immutable X
+X:INDEXUSD,Index Cooperative
+X:INJUSD,Injective
+X:INTRUSD,Interlay
+X:INVUSD,Inverse Finance
+X:IOTUSD,IOTA
+X:IOTXUSD,IoTeX
+X:IOUSD,Io.Net
+X:JASMYUSD,JasmyCoin
+X:JSTUSD,JUST
+X:JTOUSD,Jito
+X:JUNOUSD,JUNO
+X:JUPUSD,Jupiter
+X:JUSTICEUSD,AssangeDAO
+X:JXXUSD,JXX
+X:KANUSD,BitKan
+X:KARATEUSD,KARATE
+X:KARRATUSD,Karrat
+X:KARUSD,Karura
+X:KASUSD,KAS
+X:KAVAUSD,Kava
+X:KEEPUSD,Keep Network
+X:KEYUSD,SelfKey
+X:KILTUSD,KILT Protocol
+X:KINTUSD,Kintsugi
+X:KINUSD,Kin
+X:KMNOUSD,Kamino
+X:KNCUSD,Kyber Network
+X:KP3RUSD,Keep3rV1
+X:KRLUSD,Kryll
+X:KSMUSD,Kusama
+X:KUJIUSD,Kujira
+X:L3USD,Layer3
+X:LCXUSD,LCX
+X:LDOUSD,Lido DAO
+X:LEOUSD,LEO Token
+X:LIFIIIUSD,LIF3
+X:LINKUSD,Chainlink
+X:LITUSD,Litentry
+X:LMWRUSD,LimeWire
+X:LOCKINUSD,LOCKIN
+X:LOKAUSD,League of Kingdoms Arena
+X:LOOMUSD,Loom
+X:LPTUSD,Livepeer
+X:LQTYUSD,Liquity
+X:LRCUSD,Loopring
+X:LRDSUSD,Blocklords
+X:LSETHUSD,Liquid Staked ETH
+X:LSKUSD,Lisk
+X:LTCUSD,Litecoin
+X:LUNA2USD,Luna 2.0
+X:LUNAUSD,Terra
+X:LYMUSD,Lympo
+X:MAGICUSD,Treasure
+X:MANAUSD,Decentraland
+X:MANEKIUSD,MANEKI
+X:MASKUSD,Mask Network
+X:MATHUSD,MathChain
+X:MATICUSD,Polygon
+X:MCO2USD,Moss Carbon Credit
+X:MCUSD,Merit Circle
+X:MDTUSD,Measurable Data Token
+X:MEDIAUSD,Media Network
+X:MELANIAUSD,MELANIA
+X:MEMEUSD,Memeverse
+X:METISUSD,Metis
+X:MEUSD,Magic Eden
+X:MEWUSD,Mew
+X:MICHIUSD,MICHI
+X:MIMUSD,MIM
+X:MINAUSD,Mina Protocol
+X:MIRUSD,Mirror Protocol
+X:MKRUSD,Maker
+X:MLNUSD,Melon
+X:MNAUSD,MNA Coin
+X:MNDEUSD,Marinade
+X:MNGOUSD,Mango
+X:MNTUSD,Mantle
+X:MOBILEUSD,Helium Mobile
+X:MOBUSD,MobileCoin
+X:MODEUSD,Mode Network
+X:MOGUSD,Mog Coin
+X:MONAUSD,Monavale
+X:MOODENGUSD,Moo Deng
+X:MOONUSD,Dog on Moon
+X:MORPHOUSD,MORPHO
+X:MOVEUSD,Movement
+X:MOVRUSD,Moonriver
+X:MPCUSD,Partisia Blockchain
+X:MPLUSD,Maple
+X:MSOLUSD,Marinade Staked Sol
+X:MTLUSD,Metal
+X:MULTIUSD,Multichain
+X:MUSDUSD,mStable USD
+X:MUSEUSD,Muse Dao
+X:MVUSD,GensoKishi Metaverse
+X:MXCUSD,Moonchain
+X:MXNTUSD,Tether MXNt
+X:NANOUSD,Nano
+X:NCTUSD,PolySwarm
+X:NEARUSD,NEAR Protocol
+X:NEIROUSD,NEIRO
+X:NEONUSD,Neon
+X:NEOUSD,Neo
+X:NESTUSD,Nest Protocol
+X:NEXOUSD,Nexo
+X:NKNUSD,NKN
+X:NMRUSD,Numeraire
+X:NODLUSD,Nodle Network
+X:NOSUSD,Nosana
+X:NOTUSD,Notcoin
+X:NTRNUSD,Neutron
+X:NUUSD,NuCypher
+X:NXRAUSD,NXRA
+X:NYMUSD,Nym
+X:OCEANUSD,Ocean Protocol
+X:OGNUSD,Origin Protocol
+X:OMGUSD,OmiseGO
+X:OMNIUSD,Omni Network
+X:OMNUSD,OMN
+X:ONDOUSD,Ondo
+X:OOKIUSD,Ooki Protocol
+X:OPUSD,Optimism
+X:OPXUSD,OPX Finance
+X:ORCAUSD,Orca
+X:ORNUSD,Orion Protocol
+X:OSMOUSD,Osmosis
+X:OXTUSD,Orchid
+X:OXYUSD,Oxygen
+X:PARSIQUSD,Parsiq
+X:PASUSD,Pascal
+X:PAXGUSD,PAX Gold
+X:PAXUSD,Paxos Standard Token
+X:PDAUSD,PlayDapp
+X:PENDLEUSD,Pendle
+X:PEPEUSD,Pepe
+X:PERPUSD,Perpetual Protocol
+X:PHAUSD,PHALA
+X:PIRATEUSD,Pirate Nation
+X:PLANETSUSD,PlanetWatch
+X:PLAUSD,PlayDapp
+X:PLUUSD,Pluton
+X:PNGUSD,Pangolin
+X:PNKUSD,Kleros
+X:PNUTUSD,Peanut The Squirrel
+X:POLISUSD,Polis
+X:POLSUSD,Polkastarter
+X:POLUSD,POL (ex-MATIC)
+X:POLYUSD,Polymath
+X:PONDUSD,Marlin
+X:PONKEUSD,PONKE
+X:POPCATUSD,Popcat
+X:PORTALUSD,Portal
+X:POWRUSD,Powerledger
+X:PRCLUSD,Parcl
+X:PRIMEUSD,Prime
+X:PROUSD,Propy
+X:PRQUSD,PARSIQ
+X:PSTAKEUSD,pSTAKE Finance
+X:PUFFERUSD,Puffer
+X:PUNDIXUSD,Pundi X (New)
+X:PYRUSD,Vulcan Forged PYR
+X:PYTHUSD,Pyth Network
+X:PYUSDUSD,PayPal USD
+X:QIUSD,BENQI
+X:QNTUSD,Quant
+X:QRDOUSD,Qredo
+X:QSPUSD,Quantstamp
+X:QTFUSD,Quantfury Token
+X:QTMUSD,Quantreum
+X:QTUMUSD,Quantum
+X:QUICKUSD,QuickSwap
+X:RADUSD,Radworks
+X:RAIUSD,Rai Reflex Index
+X:RAREUSD,SuperRare
+X:RARIUSD,Rarible
+X:RAYUSD,Raydium
+X:RBCUSD,Ruby Currency
+X:RBNUSD,Ribbon Finance
+X:REEFUSD,Reef
+X:RENDERUSD,Render
+X:RENUSD,Ren
+X:REPUSD,Augur
+X:REPV2USD,Augur v2
+X:REQUSD,Request
+X:REZUSD,Renzo
+X:RGTUSD,Rari Governance Token
+X:RLCUSD,iExec
+X:RLUSDUSD,RLUSD
+X:RLYUSD,Rally
+X:RNDRUSD,Render Token
+X:RONINUSD,Ronin
+X:ROOKUSD,Rook
+X:ROSEUSD,Oasis Network
+X:RPLUSD,Rocket Pool
+X:RRTUSD,Recovery Right
+X:RSRUSD,RSR
+X:RUNEUSD,Rune
+X:SAFEUSD,Safe
+X:SAGAUSD,Saga
+X:SAMOUSD,Samoyedcoin
+X:SANDUSD,The Sandbox
+X:SBRUSD,Saber
+X:SCROLLUSD,SCROLL
+X:SCRTUSD,Secret
+X:SCUSD,Siacoin
+X:SDNUSD,Shiden Network
+X:SDUSD,Stader
+X:SEAMUSD,Seamless
+X:SEIUSD,Sei
+X:SGBUSD,Songbird
+X:SHDWUSD,Shadow
+X:SHIBUSD,Shiba Inu
+X:SHPINGUSD,Shping
+X:SKLUSD,SKALE Network
+X:SKYUSD,Sky
+X:SLPUSD,Smooth Love Potion
+X:SMTUSD,Swarm Markets
+X:SNTUSD,Status
+X:SNXUSD,Synthetix
+X:SOLUSD,Solana
+X:SPAUSD,Sperax
+X:SPECUSD,Spectral
+X:SPELLUSD,Spell Token
+X:SPXUSD,SPX
+X:SRMUSD,Serum
+X:STEPUSD,Step Finance
+X:STGUSD,Stargate Finance
+X:STORJUSD,Storj
+X:STRDUSD,Stride
+X:STRKUSD,Starknet
+X:STXUSD,Stox
+X:SUIUSD,Sui
+X:SUKUUSD,SUKU
+X:SUNUSD,Sun Token
+X:SUPERUSD,SuperVerse
+X:SUSHIUSD,Sushi
+X:SWEATUSD,SWEAT
+X:SWELLUSD,Swell
+X:SWFTCUSD,SwiftCoin
+X:SYLOUSD,Sylo
+X:SYNUSD,Synapse
+X:SYRUPUSD,Syrup
+X:TAIKOUSD,Taiko
+X:TAOUSD,Bittensor
+X:TBTCUSD,tBTC
+X:TEERUSD,Integritee
+X:THETAUSD,Theta
+X:TIAUSD,Celestia
+X:TIMEUSD,Chrono.tech
+X:TITAN1USD,TITAN1
+X:TITAN2USD,TITAN2
+X:TLMUSD,Alien Worlds
+X:TLOSUSD,Telos
+X:TNSRUSD,Tensor
+X:TOKENUSD,TokenFi
+X:TOKEUSD,Tokemak
+X:TOMIUSD,tomiNET
+X:TONEUSD,TE-FOOD
+X:TONUSD,Toncoin
+X:TRACUSD,OriginTrail
+X:TRADEUSD,Polytrade
+X:TRBUSD,Tellor
+X:TREMPUSD,Doland Tremp
+X:TRIBEUSD,Tribe
+X:TRUFUSD,Truflation
+X:TRUMPUSD,Official Trump
+X:TRUUSD,TrueFi
+X:TRXUSD,TRON
+X:TSDUSD,TrueUSD
+X:TURBOUSD,Turbo
+X:TUSD,Threshold
+X:TUSDEUR,TrueUSD
+X:TVKUSD,Virtua
+X:UDCUSD,USD Coin
+X:UMAUSD,UMA
+X:UNFIUSD,Unifi Protocol DAO
+X:UNIUSD,Uniswap
+X:UOSUSD,Ultra
+X:UPIUSD,Pawtocol
+X:USDCUSD,USD Coin
+X:USDGUSD,USDG
+X:USDQUSD,USDQ
+X:USDRUSD,USDR
+X:USDSUSD,USDS
+X:USDTUSD,Tether
+X:USTBLUSD,USTBL
+X:USTUSD,TerraUST
+X:UTKUSD,UTrust
+X:UXLINKUSD,UXLINK
+X:VANRYUSD,VANRY
+X:VARAUSD,Vara
+X:VCHFUSD,VNX Swiss Franc
+X:VEEUSD,BLOCKv
+X:VEGAUSD,Vega Protocol
+X:VELARUSD,Velar
+X:VELOUSD,Velo
+X:VETUSD,VeChain
+X:VEURUSD,VNX EURO
+X:VEXTUSD,Veloce
+X:VGXUSD,Voyager Token
+X:VOXELUSD,Voxies
+X:VSYUSD,VSY
+X:VTHOUSD,VeThor Token
+X:WAMPLUSD,Wrapped Ampleforth
+X:WAVESUSD,Waves
+X:WAXLUSD,Wrapped Axelar
+X:WAXUSD,Wax
+X:WBTCUSD,Wrapped Bitcoin
+X:WBTUSD,WhiteBIT Coin
+X:WCFGUSD,Wrapped Centrifuge
+X:WECANUSD,Wecan
+X:WELLUSD,Moonwell
+X:WENUSD,WEN Token
+X:WUSD,Wormhole
+X:WHBTUSD,WhiteBIT Token
+X:WIFUSD,dogwifhat
+X:WILDUSD,Wilder World
+X:WLUNAUSD,Wrapped Luna Classic
+X:WNCGUSD,WNCG
+X:WOOUSD,WOO
+X:WXXUSD,WXX
+X:XAUTUSD,Tether Gold
+X:XCADUSD,XCAD Network
+X:XCHNGUSD,XCHNG Platform
+X:XCNUSD,Onyxcoin
+X:XDCUSD,XDC Network
+X:XLMUSD,Stellar
+X:XMRUSD,Monero
+X:XRAUSD,Ratecoin
+X:XRDUSD,Radix
+X:XRPUSD,Ripple
+X:XRTUSD,Robonomics Network
+X:XSGDUSD,XSGD
+X:XTPUSD,Tap
+X:XTZUSD,Tezos
+X:XVGUSD,Verge
+X:XYOUSD,XYO
+X:YFIIUSD,DFI.Money
+X:YFIUSD,yearn.finance
+X:YGGUSD,YggDrash
+X:ZCNUSD,0chain
+X:ZECUSD,Zcash
+X:ZENUSD,Horizen
+X:ZETACHAINUSD,ZetaChain
+X:ZETAUSD,ZetaChain
+X:ZEUSUSD,Zeus Network
+X:ZEXUSD,Zeta
+X:ZILUSD,Zilliqa
+X:ZKUSD,ZKsync
+X:ZKXUSD,zkSync
+X:ZMTUSD,Zipmex
+X:ZROUSD,LayerZero
+X:ZRXUSD,0x
+X:ZUSDUSD,Zasset zUSD

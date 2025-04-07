@@ -80,6 +80,7 @@
         "react-markdown": "^9.0.3",
         "react-syntax-highlighter": "^15.6.1",
         "recharts": "^2.12.7",
+        "scichart": "^3.5.744",
         "sharp": "^0.33.4",
         "sonner": "^1.4.41",
         "stripe": "^14.16.0",
@@ -1786,6 +1787,8 @@
     "safer-buffer": ["safer-buffer@2.1.2", "", {}, "sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg=="],
 
     "scheduler": ["scheduler@0.17.0", "", { "dependencies": { "loose-envify": "^1.1.0", "object-assign": "^4.1.1" } }, "sha512-7rro8Io3tnCPuY4la/NuI5F2yfESpnfZyT6TtkXnSWVkcu0BCDJ+8gk5ozUaFaxpIyNuWAPXrH0yFcSi28fnDA=="],
+
+    "scichart": ["scichart@3.5.744", "", {}, "sha512-qg3sS2ENe7E9xpT2X5iFFYIEsd99TpBC0JzZ7AoGRYrumfMVHrmEPvwNqem4l/Yx52tyl8TduenjQ6KL4LogZg=="],
 
     "secure-json-parse": ["secure-json-parse@2.7.0", "", {}, "sha512-6aU+Rwsezw7VR8/nyvKTx8QpWH9FrcYiXXlqC4z5d5XQBDRqtbfsRjnwGyqbi3gddNtWHuEk9OANUotL26qKUw=="],
 
