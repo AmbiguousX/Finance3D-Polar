@@ -6,14 +6,14 @@ import { Check, DollarSign } from "lucide-react";
 
 export default async function PricingPage() {
   const features = [
-    "Authentication & Authorization",
-    "Payment Processing",
-    "SEO Optimization",
-    "TypeScript Support",
-    "Database Integration",
-    "Dark Mode Support",
-    "Responsive Design",
-    "API Integration",
+    "3D Financial Visualizations",
+    "Real-time Data Analysis",
+    "Portfolio Management",
+    "Risk Assessment Tools",
+    "Market Trend Predictions",
+    "Custom Financial Reports",
+    "Multi-device Support",
+    "Data Export & Integration",
   ];
 
   const { result } = await polar.products.list({
@@ -45,8 +45,8 @@ export default async function PricingPage() {
 
             {/* Subtitle */}
             <p className="text-lg md:text-xl text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-              Get started with our powerful Next.js starter kit and build your
-              next big idea faster than ever
+              Choose the right plan for your financial visualization needs and
+              transform how you analyze financial data
             </p>
           </div>
         </section>

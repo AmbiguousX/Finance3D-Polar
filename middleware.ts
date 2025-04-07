@@ -3,7 +3,11 @@ import { fetchQuery } from 'convex/nextjs';
 import { NextResponse } from 'next/server';
 import { api } from './convex/_generated/api';
 
-const isProtectedRoute = createRouteMatcher(['/dashboard(.*)'])
+// Routes that require authentication but not subscription
+const isAuthOnlyRoute = createRouteMatcher(['/profile(.*)', '/settings(.*)'])
+
+// Routes that require both authentication and subscription
+const isSubscriptionRoute = createRouteMatcher(['/dashboard(.*)'])
 
 export default clerkMiddleware(async (auth, req) => {
 
@@ -15,15 +19,22 @@ export default clerkMiddleware(async (auth, req) => {
     token: token!,
   });
 
-  const isDashboard = req.nextUrl.href.includes(`/dashboard`)
+  // Check if the current route requires subscription
+  const requiresSubscription = isSubscriptionRoute(req)
 
-  if (isDashboard && !hasActiveSubscription) {
+  // Check if the current route requires only authentication
+  const requiresAuthOnly = isAuthOnlyRoute(req)
+
+  // If route requires subscription but user doesn't have one, redirect to pricing
+  if (requiresSubscription && !hasActiveSubscription) {
     const pricingUrl = new URL('/pricing', req.nextUrl.origin)
-    // Redirect to the pricing page
     return NextResponse.redirect(pricingUrl);
   }
 
-  if (isProtectedRoute(req)) await auth.protect()
+  // Protect all routes that require either authentication or subscription
+  if (requiresAuthOnly || requiresSubscription) {
+    await auth.protect()
+  }
 })
 
 export const config = {

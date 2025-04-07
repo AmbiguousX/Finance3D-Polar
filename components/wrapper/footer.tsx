@@ -1,5 +1,5 @@
 "use client"
-import { ArrowRight, Github, Sparkles, Twitter } from 'lucide-react';
+import { ArrowRight, BarChart3, Github, Twitter } from 'lucide-react';
 import Link from 'next/link';
 import { useForm } from 'react-hook-form';
 import { Button } from '../ui/button';
@@ -46,12 +46,12 @@ export default function Footer() {
                     {/* Brand */}
                     <div className="space-y-8">
                         <Link href="/" className="flex items-center gap-2">
-                            <Sparkles className="h-5 w-5 text-blue-600" />
-                            <span className="font-semibold">Next Starter</span>
+                            <BarChart3 className="h-5 w-5 text-blue-600" />
+                            <span className="font-semibold">Finance3D</span>
                         </Link>
                         <p className="text-sm text-gray-600 dark:text-gray-400 max-w-sm">
-                            Launch your SaaS in minutes with our production-ready Next.js starter kit.
-                            Everything you need, from auth to payments.
+                            Transform complex financial data into intuitive 3D visualizations.
+                            Make better decisions with our advanced analytics platform.
                         </p>
                         <div className="flex space-x-4">
                             <Link href="https://github.com/michaelshimeles/nextjs14-starter-template" target="_blank">
@@ -133,7 +133,7 @@ export default function Footer() {
                 </div>
                 <div className="mt-12 border-t border-gray-200 dark:border-gray-800 pt-8">
                     <p className="text-sm text-gray-600 dark:text-gray-400 text-center">
-                        &copy; {new Date().getFullYear()} Next Starter. All rights reserved.
+                        &copy; {new Date().getFullYear()} Finance3D. All rights reserved.
                     </p>
                 </div>
             </div>

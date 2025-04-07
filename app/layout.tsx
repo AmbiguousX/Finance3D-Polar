@@ -8,28 +8,28 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://nextstarter.xyz/"),
+  metadataBase: new URL("https://finance3d.com/"),
   title: {
-    default: 'Next Starter',
-    template: `%s | Next Starter`
+    default: 'Finance3D',
+    template: `%s | Finance3D`
   },
   description:
-    "The Ultimate Nextjs 15 Starter Kit for quickly building your SaaS, giving you time to focus on what really matters",
+    "Finance3D - Advanced financial visualization and analysis platform",
   openGraph: {
     description:
-      "The Ultimate Nextjs 15 Starter Kit for quickly building your SaaS, giving you time to focus on what really matters",
+      "Finance3D - Advanced financial visualization and analysis platform",
     images: [
       "https://dwdwn8b5ye.ufs.sh/f/MD2AM9SEY8GucGJl7b5qyE7FjNDKYduLOG2QHWh3f5RgSi0c",
     ],
-    url: "https://nextstarter.xyz/",
+    url: "https://finance3d.com/",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Nextjs Starter Kit",
+    title: "Finance3D",
     description:
-      "The Ultimate Nextjs 15 Starter Kit for quickly building your SaaS, giving you time to focus on what really matters",
+      "Finance3D - Advanced financial visualization and analysis platform",
     siteId: "",
-    creator: "@rasmickyy",
+    creator: "@finance3d",
     creatorId: "",
     images: [
       "https://dwdwn8b5ye.ufs.sh/f/MD2AM9SEY8GucGJl7b5qyE7FjNDKYduLOG2QHWh3f5RgSi0c",

@@ -46,10 +46,7 @@ export default function NavBar() {
   const { userId } = useAuth();
 
   return (
-    <motion.div
-      initial={{ y: -20, opacity: 0 }}
-      animate={{ y: 0, opacity: 1 }}
-      transition={{ duration: 0.5 }}
+    <div
       className="fixed top-0 left-0 right-0 z-50 border-b backdrop-blur-md bg-white/80 dark:bg-black/80"
     >
       <div className="flex items-center justify-between p-4 max-w-7xl mx-auto">
@@ -65,7 +62,7 @@ export default function NavBar() {
               <SheetHeader className="pb-6 border-b">
                 <SheetTitle className="flex items-center gap-2">
                   <Sparkles className="h-5 w-5 text-blue-600" />
-                  <span>Next Starter</span>
+                  <span>Finance3D</span>
                 </SheetTitle>
               </SheetHeader>
               <div className="flex flex-col gap-1 mt-6">
@@ -143,7 +140,7 @@ export default function NavBar() {
           </Dialog>
           <Link href="/" prefetch={true} className="flex items-center gap-2">
             <Sparkles className="h-5 w-5 text-blue-600" />
-            <span className="font-semibold">Next Starter</span>
+            <span className="font-semibold">Finance3D</span>
           </Link>
         </div>
 
@@ -151,7 +148,7 @@ export default function NavBar() {
         <div className="hidden lg:flex items-center gap-2">
           <Link href="/" prefetch={true} className="flex items-center gap-2">
             <Sparkles className="h-5 w-5 text-blue-600" />
-            <span className="font-semibold">Next Starter</span>
+            <span className="font-semibold">Finance3D</span>
           </Link>
         </div>
 
@@ -210,7 +207,7 @@ export default function NavBar() {
           {userId && <UserProfile />}
         </div>
       </div>
-    </motion.div>
+    </div>
   );
 }
 
