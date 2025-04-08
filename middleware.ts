@@ -4,10 +4,10 @@ import { NextResponse } from 'next/server';
 import { api } from './convex/_generated/api';
 
 // Routes that require authentication but not subscription
-const isAuthOnlyRoute = createRouteMatcher(['/profile(.*)', '/settings(.*)', '/stocks(.*)', '/crypto(.*)'])
+const isAuthOnlyRoute = createRouteMatcher(['/profile(.*)', '/settings(.*)', '/stocks(.*)'])
 
 // Routes that require both authentication and subscription
-const isSubscriptionRoute = createRouteMatcher(['/dashboard(.*)'])
+const isSubscriptionRoute = createRouteMatcher(['/dashboard(.*)', '/crypto(.*)'])
 
 export default clerkMiddleware(async (auth, req) => {
 
