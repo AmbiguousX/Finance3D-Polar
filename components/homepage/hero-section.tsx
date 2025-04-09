@@ -1,9 +1,13 @@
 "use client";
-import { ArrowRight, BarChart3, Github } from "lucide-react";
+import { ArrowRight, BarChart3 } from "lucide-react";
 import Link from "next/link";
 import { Button } from "../ui/button";
+import { useUser } from "@clerk/nextjs";
 
 export default function HeroSection() {
+  // Get the current user information
+  const { user, isSignedIn } = useUser();
+
   return (
     <section
       className="relative flex flex-col items-center justify-center py-20"
@@ -19,7 +23,11 @@ export default function HeroSection() {
         <div className="mx-auto w-fit rounded-full border border-blue-200 dark:border-blue-900 bg-blue-50 dark:bg-blue-900/30 px-4 py-1 mb-6">
           <div className="flex items-center gap-2 text-sm font-medium text-blue-900 dark:text-blue-200">
             <BarChart3 className="h-4 w-4" />
-            <span>Advanced Financial Visualization</span>
+            {isSignedIn && user ? (
+              <span>Welcome back, {user.firstName || user.username}!</span>
+            ) : (
+              <span>Advanced Financial Visualization</span>
+            )}
           </div>
         </div>
 

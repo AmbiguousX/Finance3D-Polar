@@ -19,13 +19,19 @@ import {
     LogOut,
     Settings,
     Sparkles,
-    User
+    User,
+    CreditCard
 } from "lucide-react";
 import { Button } from "./ui/button";
 import Link from "next/link";
+import { api } from "@/convex/_generated/api";
+import { useQuery } from "convex/react";
 
 export function UserProfile() {
     const { user } = useUser();
+
+    // Check if the user has an active subscription
+    const { hasActiveSubscription } = useQuery(api.subscriptions.getUserSubscriptionStatus) || { hasActiveSubscription: false };
 
     return (
         <DropdownMenu>
@@ -63,12 +69,21 @@ export function UserProfile() {
                             <span>Settings</span>
                         </DropdownMenuItem>
                     </Link>
-                    <Link href="/#pricing">
-                        <DropdownMenuItem className="focus:bg-blue-50 dark:focus:bg-blue-950">
-                            <Sparkles className="mr-2 h-4 w-4" />
-                            <span>Upgrade Plan</span>
-                        </DropdownMenuItem>
-                    </Link>
+                    {hasActiveSubscription ? (
+                        <Link href="/dashboard/finance">
+                            <DropdownMenuItem className="focus:bg-blue-50 dark:focus:bg-blue-950">
+                                <CreditCard className="mr-2 h-4 w-4" />
+                                <span>Manage Subscription</span>
+                            </DropdownMenuItem>
+                        </Link>
+                    ) : (
+                        <Link href="/#pricing">
+                            <DropdownMenuItem className="focus:bg-blue-50 dark:focus:bg-blue-950">
+                                <Sparkles className="mr-2 h-4 w-4" />
+                                <span>Upgrade Plan</span>
+                            </DropdownMenuItem>
+                        </Link>
+                    )}
                 </DropdownMenuGroup>
                 <DropdownMenuSeparator />
                 <SignOutButton>
