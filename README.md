@@ -1,47 +1,50 @@
-# Next.js 15 Starter Kit
+# Finance3D
 
-A modern, feature-rich starter template for building production-ready applications with Next.js 15, Tailwind CSS, and TypeScript.
+![Finance3D](public/images/finance3d-og.png)
 
-![Next Starter Kit](https://dwdwn8b5ye.ufs.sh/f/MD2AM9SEY8GucGJl7b5qyE7FjNDKYduLOG2QHWh3f5RgSi0c)
+Transform complex financial data into intuitive 3D visualizations. Make better decisions with our advanced analytics platform.
 
 ## Features
 
-### Core Technologies
-- ⚡ **Next.js 15** - The latest version with App Router
-- 🎨 **Tailwind CSS** - Utility-first CSS framework
-- 📘 **TypeScript** - Type-safe code
-- 🔒 **Authentication** - Clerk integration with persistent authorization toggle
-- 🎭 **Shadcn/ui** - Beautiful and accessible components
-- 💾 **Convex DB** - Real-time database with built-in file storage and serverless functions
-- 💳 **Polar.sh** - Open-source solution for managing subscriptions and payments
+### Advanced Visualization
+- 🌐 **3D Surface Charts** - Visualize stock price trends over time in three dimensions
+- 📊 **Real-time Candlestick Charts** - Track market movements with comprehensive candlestick charts
+- 📈 **Stock Ticker Banner** - Wall Street-style scrolling ticker with real-time price updates
+- 📰 **Financial News Integration** - Stay informed with the latest market news
 
-### Performance Optimizations
-- 🚀 **Route Prefetching** - Instant page transitions for dashboard, playground, and auth pages
-- 🖼️ **Optimized Images** - Eager loading for critical images
-- 🌓 **Dark/Light Mode** - System-aware theme switching with custom gradients
-- 📱 **Responsive Design** - Mobile-first approach
-- 🔄 **Real-time Updates** - Powered by Convex DB's real-time capabilities
+### Data Analysis
+- 📉 **Technical Indicators** - Moving averages, volume analysis, and more
+- 🔍 **Stock Search** - Find and analyze any publicly traded company
+- 💹 **Crypto Markets** - Track cryptocurrency prices and trends
+- 📱 **Responsive Design** - Access your financial data on any device
 
-### Developer Experience
-- 🧩 **Component Library** - Pre-built, customizable components
-- 🎮 **AI Playground** - Built-in AI chat interface
-- 📊 **Dashboard Template** - Ready-to-use admin interface with subscription management
-- 🔍 **SEO Optimized** - Meta tags and sitemap generation
+### User Experience
+- 🌓 **Dark/Light Mode** - Optimized for both day and night trading
+- 🔒 **User Authentication** - Secure access to your financial dashboard
+- 💼 **Customizable Dashboard** - Arrange your financial widgets as you prefer
+- 🚀 **High Performance** - Smooth animations and real-time data updates
 
-## Convex DB Integration
+## Technology Stack
 
-To set up your Convex database, visit: [https://convex.link/rasmicstarter](https://convex.link/rasmicstarter)
+- **Frontend**: Next.js, React, TypeScript, Tailwind CSS, shadcn/ui
+- **Data Visualization**: SciChart.js for high-performance WebGL charts
+- **Authentication**: Clerk for secure user management
+- **API Integration**: Polygon.io for financial data
 
-## Quick Start
+## Getting Started
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/michaelshimeles/nextjs14-starter-template.git
+git clone https://github.com/yourusername/finance3d.git
 ```
 
 2. Install dependencies:
 ```bash
-bun install
+npm install
+# or
+yarn install
+# or
+pnpm install
 ```
 
 3. Set up environment variables:
@@ -54,29 +57,21 @@ cp .env.example .env.local
 # Authentication (Clerk)
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
 CLERK_SECRET_KEY=
-NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
-NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
-NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/
-NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/
 
-# Convex
-NEXT_PUBLIC_CONVEX_URL=
-CONVEX_DEPLOYMENT=
-CONVEX_ADMIN_KEY=
-
-# Polar.sh
-POLAR_WEBHOOK_SECRET=
+# Polygon.io API
+NEXT_PUBLIC_POLYGON_API_KEY=
 
 # Frontend
 NEXT_PUBLIC_BASE_URL=http://localhost:3000
-
-# Optional: AI Integration
-OPENAI_API_KEY=
 ```
 
 5. Run the development server:
 ```bash
-bun run dev
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) to see your application.
@@ -85,48 +80,26 @@ Open [http://localhost:3000](http://localhost:3000) to see your application.
 
 ```
 ├── app/
-│   ├── (auth)/         # Authentication routes
-│   ├── (marketing)/    # Marketing pages
-│   ├── api/           # API routes
-│   ├── dashboard/     # Dashboard pages
-│   └── playground/    # AI Playground
+│   ├── (auth)/        # Authentication routes
+│   ├── (pages)/       # Main application pages
+│   └── api/           # API routes
 ├── components/
-│   ├── homepage/     # Landing page components
-│   ├── shared/       # Shared UI components
-│   └── wrapper/      # Layout wrappers and navigation
-├── config/           # Configuration files
-├── convex/          # Convex DB schema and functions
-├── lib/             # Utility functions
-├── public/          # Static assets
-│   ├── images/      # Image assets
-│   └── svg/         # SVG assets
-└── styles/          # Global styles
+│   ├── Finance/       # Financial visualization components
+│   ├── dashboard/     # Dashboard components
+│   ├── homepage/      # Landing page components
+│   └── ui/            # UI components (shadcn)
+├── hooks/             # Custom React hooks for financial data
+├── lib/               # Utility functions
+└── public/            # Static assets
 ```
 
 ## Available Scripts
 
-- `bun run dev` - Start development server
-- `bun run build` - Build for production
-- `bun run start` - Start production server
-- `bun run lint` - Run ESLint
-- `bun run format` - Format code with Prettier
-
-## Sponsors and Supporters
-
-Special thanks to [Convex](https://www.convex.dev/) for their sponsorship and support in making this starter kit possible. Their real-time database and file storage solutions have been instrumental in creating a powerful foundation for modern web applications.
-
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run start` - Start production server
+- `npm run lint` - Run ESLint
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Support
-
-If you find this template helpful, please give it a ⭐️ on GitHub!

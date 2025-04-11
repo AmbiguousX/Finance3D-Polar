@@ -7,6 +7,7 @@ import { useTickerDetails } from '../../../hooks/useTickerDetails';
 import { useMarketSnapshot } from '../../../hooks/useStockMarketSnapshot';
 import { useMarketStatus } from '../../../hooks/useMarketStatus';
 import NewsComponent from '../../../components/Finance/NewsComponent';
+import StockTickerBanner from '../../../components/Finance/StockTickerBanner';
 // Removed unused import
 
 // Define interfaces for pricing data
@@ -135,6 +136,11 @@ export default function StocksPage() {
 
   return (
     <div className="container py-10">
+      {/* Stock Ticker Banner */}
+      <div className="mb-6 -mx-4 sm:-mx-6 md:-mx-8 lg:-mx-12">
+        <StockTickerBanner tickersPerLetter={5} scrollSpeed={80} />
+      </div>
+
       <h1 className="text-4xl font-bold mb-6">Stock Visualization</h1>
 
       <div className="container mx-auto">
