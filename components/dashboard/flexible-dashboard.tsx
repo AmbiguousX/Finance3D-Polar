@@ -140,7 +140,7 @@ const WidgetContent: React.FC<{ widget: Widget }> = ({ widget }) => {
       setWidgetStates(prev => ({
         ...prev,
         [widget.id]: {
-          ticker: widget.type.includes('crypto') ? 'BTC-USD' : 'AAPL',
+          ticker: widget.type.includes('crypto') ? 'X:BTCUSD' : 'AAPL',
           year: currentYear
         }
       }));
@@ -148,7 +148,7 @@ const WidgetContent: React.FC<{ widget: Widget }> = ({ widget }) => {
   }, [widget.id, widget.type, widgetStates]);
 
   // Get the current widget state
-  const widgetState = widgetStates[widget.id] || { ticker: widget.type.includes('crypto') ? 'BTC-USD' : 'AAPL', year: currentYear };
+  const widgetState = widgetStates[widget.id] || { ticker: widget.type.includes('crypto') ? 'X:BTCUSD' : 'AAPL', year: currentYear };
 
   // Handler for ticker selection
   const handleSelectTicker = (ticker: string) => {
@@ -218,7 +218,7 @@ const WidgetContent: React.FC<{ widget: Widget }> = ({ widget }) => {
           </div>
           <div className="flex-grow">
             <SurfaceChart
-              ticker={widgetState.ticker || 'BTC-USD'}
+              ticker={widgetState.ticker || 'X:BTCUSD'}
               year={widgetState.year || currentYear}
               key={`${widget.id}-${widgetState.ticker}-${widgetState.year}`}
             />
@@ -256,7 +256,7 @@ const WidgetContent: React.FC<{ widget: Widget }> = ({ widget }) => {
           </div>
           <div className="flex-grow">
             <SimpleCandlestickChart
-              ticker={widgetState.ticker || 'BTC-USD'}
+              ticker={widgetState.ticker || 'X:BTCUSD'}
               key={`${widget.id}-${widgetState.ticker}`}
             />
           </div>
